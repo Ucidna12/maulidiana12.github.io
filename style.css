@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+.main-container{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-header{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-header img{
+    width: 20%;  
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a{
+    flex: 1;
+    text-decoration: none;
+    background-color: rgb(200, 17, 17);
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.menu-header a:hover{
+    background-color: rgb(227, 188, 18);
+    color: black;
+}
+
+.info-container {
+    display: flex;
+    padding-top: 1px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.paket-container {
+    width: 40px ;
+    margin-left: 2px;
+    flex: auto;
+}
+
+
+.paket-container h4 {
+    color: rgb(135, 118, 118);
+}
+.paket-container img {
+    width: 300px;
+}
+
+.video-container {
+    width: 100%;
+    padding-bottom: 10px;
+    display: auto;
+}
+
+.video-container iframe{
+    padding-top: 10px;
+    width: 300px;
+    height: auto;
+}
+
+
+.search-container{
+    margin: auto;
+}
+
+
+
+.search-container input[type='text']{
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+.search-container input[type='submit']{
+    padding: 5px;
+    
+}
+.brand-container {
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.brand-container img{
+    width: 30%;
+}
+.brand-container h1 {
+    color: rgb(224, 34, 20);
+    font-size: 3.5vw;
+}
+.brand-container h2 {
+    color: rgb(247, 5, 5);
+    font-size: 2.5vw;
+}
+
+.gallery-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.wahana-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.wahana-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.wahana-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.wahana-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.wahana-item h2 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.wahana-item p {
+    color: #666;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.paket-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.paket-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.paket-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.paket-item h2 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.paket-item p {
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.fasilitas-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fasilitas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.fasilitas-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.fasilitas-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fasilitas-item h2 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.fasilitas-item p {
+    color: #666;
+}
